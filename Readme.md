@@ -83,3 +83,57 @@ Companies creating their own chatbots.
 2. Knowledge based documentation.
 3. Real-time/Frequently updated info
 4. Compliance-heavy industries.
+
+
+## RAG Architecture
+
+**Example of Vector Database :**
+1. FAISS
+2. ChromaDB
+3. DataStax
+4. PineCone
+
+**Techniques to retrieve similar vectors :**
+1. Similarity Search
+2. Euclidean Distance
+3. Cosine Similarity
+
+### Document Ingestion and Preprocessing Phase
+1. Read data from all sources(pdf/doc/website) and create a data ingestion pipeline and do some pre-processing for ingestion.
+2. Divide documents in chunks.
+3. Pass all data to embedding model.
+4. Embedding model converts them to vectors.
+5. Stored in Vector Database. Query Processing Phase
+
+### Query Processing Phase
+### Generation Phase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
